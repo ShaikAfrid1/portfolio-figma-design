@@ -185,6 +185,10 @@ ul {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+.second-head-scroll p {
+  color: #555;
+  opacity: 0.6;
+}
 
 footer {
   text-align: center;
@@ -274,5 +278,29 @@ footer p {
   .posts {
     max-width: 330px;
     height: 24rem;
+  }
+
+  .section4 {
+    text-align: center;
+  }
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .scroll img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .scroll-text {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+  .line {
+    width: 100%;
   }
 }
