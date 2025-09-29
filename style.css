@@ -303,4 +303,10 @@ footer p {
   .line {
     width: 100%;
   }
+
+  .social-icons a {
+    font-size: 1.4rem;
+
+    transition: 0.3s;
+  }
 }
